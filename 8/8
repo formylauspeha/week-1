@@ -1,0 +1,220 @@
+<html>
+<head>
+    <style>
+        a {
+            text-decoration: none;
+            border-radius: 10px;
+            padding: 10px;
+            border: 2px solid green;
+            margin: 190;
+            text-align: center;
+            width: fit-content;
+        }
+        body {
+            font-family: "Arial";
+        }
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Привет!</h1>
+    <h1>Это блог Алексея Х.</h1>
+    <a>Перейти к постам</a>
+</body>
+</html>
+<html>
+<head>
+    <style>
+        header {
+            background-color: navy;
+            padding: 10px;
+        }
+
+        header a {
+            background-color: white;
+            color: black;
+            font-size: 20px;
+            text-decoration: none;
+            border: 1px solid white;
+            border-radius: 10px;
+            margin: 10px;
+            padding: 5px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 50px;
+        }
+
+        h2 {
+            font-size: 30px;
+            color: purple;
+            background: deepskyblue;
+        }
+
+        main p {
+            border: 1px solid navy;
+            border-radius: 15px;
+            margin: 20px;
+            padding: 20px;
+            font-size: 20px;
+        }
+
+        footer {
+            background-color: #8fddf2;
+            padding: 10px;
+        }
+
+        footer p {
+            background-color: white;
+            padding: 5px;
+        }
+
+        p img {
+            height: 150px;
+            width: 200px;
+        }
+
+        header img {
+            width: 200px;
+            height: 60px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="https://cisess.umd.edu/assets/1/7/dragging_package_3947910__340.png">
+            <a href="#news">Новости</a>
+            <a href="#contest">Конкурс</a>
+            <a href="#plans">Планы развития</a>
+        </div>
+    </header>
+    
+    <h1>Pixel Design</h1>
+    
+    <main>
+        <h2 id="news">Наши последние новости</h2>
+        <p>
+            В нашей студии новый дизайнер: пиксель Cube. Именно он будет выполнять ваши заказы по трёхмерной графике. Увлекается ландшафтным и интерьерным дизайном. Недавно он давал интервью газете <em>Progress news</em>.
+            <br/>
+            <img src="https://www.tuwien.at/fileadmin/Assets/dienstleister/digital_office/Grafik-Folgeprojekt.png">
+        </p>
+        
+        <h2 id="contest">Готовимся к конкурсу</h2>
+        <p>
+            Весной следующего года мы участвуем в конкурсе дизайна. Наши работы будут представлены в направлениях: <em>веб-дизайн, полиграфический дизайн, дизайн интерьеров</em>. По каждому направлению мы собираемся представить несколько работ, которые пройдут предварительный отбор в нашей студии.
+            <br/>
+            <img src="https://avatars.mds.yandex.net/i?id=ff9b8bf9c9ae81de04bd7f7f9b10d3f7213739c1-5839308-images-thumbs&n=13">
+        </p>
+        
+        <h2 id="plans">Планы развития</h2>
+        <p>
+            В этом месяце мы готовим годовое планирование нашей работы. Кроме того, что мы принимаем и выполняем клиентские заказы по дизайну, мы участвуем в конкурсах, учимся на онлайн курсах, повышающих наше мастрество, просматриваем сборники лучших работ, которые можно найти в Интернете.
+            <br/>
+            <img src="https://avatars.mds.yandex.net/i?id=c58805ab4cf58c19204171c85b5247c5-5542693-images-thumbs&n=13">
+        </p>
+    </main>
+    <footer>
+        <p><span style="font-weight: bold; font-style: italic;">Контакты</span></p>
+        <p>Адрес: г. Техноград, ул. Дисплейная, 15</p>
+        <p>Тел.: 8895-6341</p>
+    </footer>
+</body>
+</html>
+<head>
+    <title>Праздники народов мира</title>
+    <style>
+        body {
+            margin: 0;
+            padding-top: 80px;
+        }
+        
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: green; 
+            display: flex;
+            align-items: center;
+            padding: 10px 20px;
+            height: 60px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        
+        header img {
+            height: 50px;
+            margin-right: 15px;
+        }
+        
+        
+        h1 {
+            text-align: center;
+        }
+        
+        .table-container {
+            border-left: 10px dotted darkcyan;
+            border-right: 10px dotted darkcyan;
+            padding: 0 15px;
+            margin: 15px;
+        }
+        
+        table {
+            width: 100%;
+            border: 2px dotted darkcyan !important;
+            border-collapse: collapse;
+        }
+        
+        th, td {
+            border: 2px dotted darkcyan;
+            padding: 8px;
+            text-align: center;
+        }
+
+        
+        
+        .footer {
+            text-align: right;
+            font-style: italic;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://i.pinimg.com/originals/b2/08/3b/b2083b58b3fe0ec24eb92f4fa08fe4c7.png" alt="Логотип">
+    </header>
+
+        <h1>Праздники народов мира</h1>
+    <div class="table-container">
+        <table>
+            <tr>
+                <th>Название праздника</th>
+                <th><u>Праздник льда и снега</u> <img src="https://cdn-icons-png.flaticon.com/512/6214/6214468.png" width="150"></th>
+                <th><u>Фестиваль Ренессанса</u> <img src="https://i.pinimg.com/736x/3a/d2/9e/3ad29e1e3a01d19611c9785c0339fc93.jpg" width="150"></th>
+                <th><u>Цветение сакуры</u> <img src="https://i.pinimg.com/736x/bc/ab/40/bcab40ac83a42950c8bd9e5c578f7c59.jpg" width="150"></th>
+                <th><u>Фестиваль красок</u> <img src="https://avatars.mds.yandex.net/i?id=9e2162afda53fec5ca4ad9a25d0b13e2_l-9180497-images-thumbs&n=13" width="150"></th>
+            </tr>
+            <tr>
+                <td>Когда празднуется</td>
+                <td>5 января - 5 февраля</td>
+                <td>вторая половина июля</td>
+                <td>27 марта</td>
+                <td>конец февраля - начало марта</td>
+            </tr>
+            <tr>
+                <td>Где празднуется</td>
+                <td>Китай</td>
+                <td>Испания</td>
+                <td>Япония</td>
+                <td>Индия</td>
+            </tr>
+        </table>
+    </div>
+    
+    <p style="color: green; background-color: rgb(220, 220, 255); line-height: 3">Сайт Алексея.Х</p>
+</body>
+</html>
