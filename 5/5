@@ -1,0 +1,140 @@
+<html>
+    <head>
+        <title>Genshin impact</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                color: #333;
+            }
+            
+            h1 {
+                font-size: 50px;
+                text-align: center;
+                color: #000000;
+            }
+            
+            h2 {
+                font-size: 40px;
+                color: #111110;
+            }
+            
+            p {
+                font-size: 20px;
+                line-height: 1.5;
+            }
+            
+            header, footer {
+                background-color: #cdcb46;
+                color: white;
+                padding: 20px;
+                text-align: center;
+            }
+            
+            nav a {
+                color: white;
+                font-size: 18px;
+                margin: 0 15px;
+                text-decoration: none;
+            }
+            
+            nav a:hover {
+                text-decoration: underline;
+            }
+            
+            img {
+                border-radius: 10px;
+                margin: 10px;
+            }
+            
+            table {
+                width: 80%;
+                margin: 20px auto;
+                border-collapse: collapse;
+                font-size: 20px;
+                background-color: #f8f8f8;
+            }
+
+            th, td {
+                border: 2px solid #cdcb46;
+                padding: 10px;
+                text-align: center;
+            }
+
+            th {
+                background-color: #cdcb46;
+                color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <img src="https://c2.vanceai.com/posts/17104696172834679-genshin%20logo.jpg" width="200" height="100">
+            <nav>
+                <a href="#about">О Genshin impact</a>
+                <a href="#characters">Персонажи</a>
+            </nav>
+        </header>
+        <main>
+            <h1>Genshin Impact — компьютерная игра в жанре action-adventure с открытым миром и элементами RPG.</h1>
+            
+            <h2 id="about">О чём эта игра?</h2>
+            <p><strong>Genshin impact</strong> — Суть игры Genshin Impact — исследование открытого мира и участие в сражениях</p>
+            <p>Игра разработана разработанная китайской компанией miHoYo Limited. <em>miHoYo Limited 2019</em>.</p>
+
+            <h2 id="characters">Главные персонажи</h2>
+            <p><strong>Итэр</strong> — главный герой,— один из двух возможных протагонистов игры Genshin Impact, мужская версия главного героя.</p>
+            <p><em>Люмин</em> — играбельная героиня игры Genshin Impact, один из главных персонажей.</p>
+            
+            <img src="https://avatars.mds.yandex.net/i?id=d4389106913ca83aa8e94437b98f8978538780db9d55fe29-9843011-images-thumbs&n=13" width="400">
+            <img src="https://avatars.mds.yandex.net/i?id=68a75373b4610927c0b2b44b59a00911d5ac645f-5282884-images-thumbs&n=13" width="400">
+            
+            <h2>Основные сюжетные линии</h2>
+            <table>
+                <tr>
+                    <th>Название линии</th>
+                    <th>Главы</th>
+                    <th>Основные события</th>
+                </tr>
+                <tr>
+                    <td>Чужеземец, поймавший ветер</td>
+                    <td>1</td>
+                    <td>Знакомство с миром и получение первого элемента</td>
+                </tr>
+                <tr>
+                    <td>Горькие слёзы</td>
+                    <td>2</td>
+                    <td>Путешественник помогает украсть и починить лиру архонта</td>
+                </tr>
+                <tr>
+                    <td>Завершение первого пролога</td>
+                    <td>3</td>
+                    <td>Венти предлагает героям отправится в Ли Юэ, чтобы поговорить с Гео Архонтом. Дело в том, что там вот-вот состоится Обряд Нисхождения, когда Моракс спускается с небес, чтобы оценить положение дел и задать дальнейшее развитие нации.</td>
+                </tr>
+            </table>
+            
+            <h2>Оставить отзыв</h2>
+            <form>
+                <label for="name">Ваше имя:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="review">Ваш отзыв:</label><br>
+                <textarea id="review" name="review" rows="5" cols="50" required></textarea><br><br>
+                
+                <input type="submit" value="Отправить">
+            </form>
+        </main>
+        <footer>
+            <p>© 2088 Genshin impact 2088 — лучшее RPG</p>
+            <p>Адрес: г. Пекин</p>
+            <p>Телефон: +7 (399) 888-88</p>
+            <a href="https://act.hoyoverse.com/puzzle/hk4e/pz_DvjBejelna?utm_source=EU_yandex_RU_search_puzzle&utm_campaign=GS-RU-PC-1-new-search-yandex-20240906-2&hoyotrace_channel=yandex_channel&yclid=4343724218876428287">
+                <img src="https://sun9-9.userapi.com/impg/uNvynoC0lfvGOrz01pioindDpCVs9qSFi4icuQ/N64fvRWsaNk.jpg?size=1024x1024&quality=95&sign=9d34cd58a0cf5def22c45c42cd8b093b&type=album" width="100">
+            </a>
+        </footer>
+    </body>
+</html>
